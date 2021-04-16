@@ -112,6 +112,11 @@ button:hover:before,button:hover:after{
   text-align: center;
 }
 
+.modal-body p span {
+  color: #f00000;
+  font-weight: bold;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
