@@ -311,10 +311,16 @@ function getCookie(name) {
  * VideoUpload script
  */
 
-function func(clubName, output)
+function func(subject_code, order, matter, output)
 {
-    var name = document.getElementById(clubName).value;
-    str = name
+    var v1 = document.getElementById("year").value;
+    var v2 = document.getElementById("semester").value;
+    var v3 = document.getElementById(subject_code).value;
+    var v4 = document.getElementById(order).value;
+    var v5 = document.getElementById(matter).value;
+    var v7 = v3.length-7
+    var v8 = v3.length-1
+    str = '[a]'+'['+v1+']'+'['+v2+']'+'['+v3.substring(v7,v8)+']'+'['+v4+']'+'['+v3.substring(0,v3.length-8)+']'+'['+v5+']'
     document.getElementById(output).value = str
 }
 
