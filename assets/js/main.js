@@ -261,17 +261,17 @@
  * Pop up
  */
 
-// $( document ).ready(function() {
+$( document ).ready(function() {
 
-//   var checkCookie = getCookie("mycookie");
-	
-//   if(checkCookie == 'popupEnd') {
-//     $("#myModal").hide();
-//   } else {
-//     $('#myModal').show();	
-//   }
+  var checkCookie = getCookie("mycookie");
 
-// });
+  if(checkCookie == 'popupEnd') {
+    $("#myModal").hide();
+  } else {
+    $('#myModal').show();	
+  }
+
+});
 
 
 function close_pop() {
