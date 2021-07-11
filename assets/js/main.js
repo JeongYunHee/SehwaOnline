@@ -280,7 +280,7 @@ function close_pop() {
 
 function weekclose() {
 	$("#myModal").hide();
-	setCookie("mycookie", 'popupEnd', 7);
+	setCookie("mycookie", 'popupEnd', 1);
 };
 
 function setCookie(name, value, expiredays){
