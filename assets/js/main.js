@@ -261,6 +261,7 @@
  * Pop up
  */
 
+/*
 $( document ).ready(function() {
 
   var checkCookie = getCookie("mycookie");
@@ -272,7 +273,7 @@ $( document ).ready(function() {
   }
 
 });
-
+*/
 
 function close_pop() {
   $('#myModal').hide();
